@@ -42,6 +42,87 @@ body{
 .clock .number11{--rotation:330deg}
 .clock .number12{--rotation:360deg}
 
+
+.vclock{
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+}
+.clock .seconds{
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+    font-size: 0.7rem;
+}
+.clock .secnumber1{--rotation:6deg}
+.clock .secnumber2{--rotation:12deg}
+.clock .secnumber3{--rotation:18deg}
+.clock .secnumber4{--rotation:24deg}
+.clock .secnumber5{--rotation:30deg}
+.clock .secnumber6{--rotation:36deg}
+.clock .secnumber7{--rotation:42deg}
+.clock .secnumber8{--rotation:48deg}
+.clock .secnumber9{--rotation:54deg}
+.clock .secnumber10{--rotation:60deg}
+.clock .secnumber11{--rotation:66deg}
+.clock .secnumber12{--rotation:72deg}
+.clock .secnumber13{--rotation:78deg}
+.clock .secnumber14{--rotation:84deg}
+.clock .secnumber15{--rotation:90deg}
+.clock .secnumber16{--rotation:96deg}
+.clock .secnumber17{--rotation:102deg}
+.clock .secnumber18{--rotation:108deg}
+.clock .secnumber19{--rotation:114deg}
+.clock .secnumber20{--rotation:120deg}
+.clock .secnumber21{--rotation:126deg}
+.clock .secnumber22{--rotation:132deg}
+.clock .secnumber23{--rotation:138deg}
+.clock .secnumber24{--rotation:144deg}
+.clock .secnumber25{--rotation:150deg}
+.clock .secnumber26{--rotation:156deg}
+.clock .secnumber27{--rotation:162deg}
+.clock .secnumber28{--rotation:168deg}
+.clock .secnumber29{--rotation:174deg}
+.clock .secnumber30{--rotation:180deg}
+.clock .secnumber31{--rotation:186deg}
+.clock .secnumber32{--rotation:192deg}
+.clock .secnumber33{--rotation:198deg}
+.clock .secnumber34{--rotation:204deg}
+.clock .secnumber35{--rotation:210deg}
+.clock .secnumber36{--rotation:216deg}
+.clock .secnumber37{--rotation:222deg}
+.clock .secnumber38{--rotation:228deg}
+.clock .secnumber39{--rotation:234deg}
+.clock .secnumber40{--rotation:240deg}
+.clock .secnumber41{--rotation:246deg}
+.clock .secnumber42{--rotation:252deg}
+.clock .secnumber43{--rotation:258deg}
+.clock .secnumber44{--rotation:264deg}
+.clock .secnumber45{--rotation:270deg}
+.clock .secnumber46{--rotation:276deg}
+.clock .secnumber47{--rotation:282deg}
+.clock .secnumber48{--rotation:288deg}
+.clock .secnumber49{--rotation:294deg}
+.clock .secnumber50{--rotation:300deg}
+.clock .secnumber51{--rotation:306deg}
+.clock .secnumber52{--rotation:312deg}
+.clock .secnumber53{--rotation:318deg}
+.clock .secnumber54{--rotation:324deg}
+.clock .secnumber55{--rotation:330deg}
+.clock .secnumber56{--rotation:336deg}
+.clock .secnumber57{--rotation:342deg}
+.clock .secnumber58{--rotation:348deg}
+.clock .secnumber59{--rotation:354deg}
+.clock .secnumber60{--rotation:360deg}
+
+
+
 .clock .hand{
     --rotation: 30;
     position: absolute;
